@@ -1,0 +1,48 @@
+body, h6, input, button, label, select, .webix_list_item, .webix_dtable  {
+    font-size: 12px !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.minimizer {
+    font-size: 11px !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.input-sm {
+    height: 25px !important;
+}
+
+.btnPosition {
+    margin-top: 7px !important;
+}
+.close {
+    font-size: 24px !important;
+}
+
+.mainTextPage {
+    color: #0000A0;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+.webix_invalid .webix_custom_radio, .webix_invalid .webix_el_box .webix_inp_static, .webix_invalid .webix_el_box input, .webix_invalid .webix_el_box select, .webix_invalid .webix_el_box textarea, input.webix_invalid, select.webix_invalid, textarea.webix_invalid {
+    background-color: white;
+    border: 2px solid red
+}
+
+label.webix_required:after {
+    padding-left: 4px;
+    font-family: FontAwesome, serif;
+    content: "\f069";
+    color: red;
+    font-size: 10px;
+}
+
+.webix_message_area {
+    display:none;
+}
+
+.webix_info.webix_error {
+    display:none;
+}

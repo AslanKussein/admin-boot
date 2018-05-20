@@ -1,0 +1,16 @@
+.webix_layout_toolbar.webix_toolbar .webix_icon_button .webix_icon {
+    font-size: 23px;
+    height: 27px;
+    width: 27px;
+    color: red;
+    background-color: white;
+}
+
+
+.webix_message_area {
+    display:none;
+}
+
+.webix_info.webix_error {
+    display:none;
+}

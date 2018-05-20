@@ -1,0 +1,9 @@
+.middlecontent{width:95%;max-width:1300px;margin:0 auto;padding-bottom:50px}.webix_view{font-size:14px}.webix_view.webix_layout_accordion{background-color:white}.webix_column > div.webix_cell_select,.webix_column > div.webix_column_select,.webix_column > div.webix_row_select{background:#f5f5f5 none repeat scroll 0 0;color:#686868}.webix_accordionitem_header{font-size:14px}.webix_accordionitem_header{background:#f5f5f5 none repeat scroll 0 0;border-color:#ddd;color:#333}.webix_accordionitem .webix_accordionitem_header .webix_accordionitem_button{color:#333}.webix_inp_label,.webix_inp_top_label,.webix_label_right{font-weight:normal;font-size:14px}.webix_layout_toolbar.webix_toolbar .webix_el_label{font-size:14px}.panel-body .icon{float:left;width:100px;margin:0 15px 10px 0}
+
+.webix_message_area {
+    display:none;
+}
+
+.webix_info.webix_error {
+    display:none;
+}

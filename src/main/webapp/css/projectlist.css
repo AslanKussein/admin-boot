@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+.mainDiv{
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    height: 250px;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+.mainIterator{
+    float:left;
+    height: 80px;
+    line-height: 46px;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.project-name{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+}
+
+.mainlayout{
+    width: 1000px;
+    padding:10px;
+    margin:0 auto;
+}
+
+.buttonIcon .webix_icon{
+    font-size: 18px;
+    color:#2B7CAC;
+}
+
+.b-post__only {
+    display: inline-block;
+    padding: 3px 5px;
+    line-height: 1.2;
+    height: 25px;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 15px !important;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 1px;
+    right: 10px;
+}
+
+.desc{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.fullName{
+    font-size: 15px;
+}
+
+.ava{
+    float: left;
+    margin: 15px 20px 15px 0;
+}
+
+.project{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:#2B7CAC;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projectCount{
+    color: #777;
+}

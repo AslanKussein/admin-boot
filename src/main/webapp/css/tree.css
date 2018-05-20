@@ -1,0 +1,23 @@
+.right_area.webix_column > div:nth-child(even) {
+    background-color: #ffffdd;
+}
+
+.right_area.webix_column > div:nth-child(odd) {
+    background-color: #ffffee;
+}
+
+.left_area.webix_column > div:nth-child(even) {
+    background-color: #ffffdd;
+}
+
+.left_area.webix_column > div:nth-child(odd) {
+    background-color: #ffffee;
+}
+
+.webix_message_area {
+    display:none;
+}
+
+.webix_info.webix_error {
+    display:none;
+}

@@ -1,0 +1,225 @@
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu.active > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu.active > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.in-use.open > a {
+    background-color: #5cb85c !important;
+    color: #fff;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+body {
+    background-color: #fff !important;
+}
+
+.nav-search-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-search-input {
+    margin: 10px -4px 10px 30px;
+    padding: 5px;
+    color: #333;
+    border: 1px solid gray;
+    border-right: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.nav-search-angle {
+    background-color: #fff;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    color: #888;
+    padding: 7px 3px 8px;
+    margin-right: -4px;
+}
+
+.nav-search-btn {
+    background-color: #fff;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-left: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #888;
+    padding: 7px 8px 8px 8px;
+}
+
+.nav-search-angle:hover, .nav-search-btn:hover {
+    color: #000;
+}
+
+.nav-search-full {
+    padding: 7px 9px;
+    color: #333;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    top: 42px;
+    background: #fff;
+    display: none;
+    border: 1px solid #888;
+    border-radius: 4px;
+    width: 300px;
+    /*height: 200px;*/
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.nav-search-full .head {
+    border-bottom: 1px solid silver;
+    padding-bottom: 3px;
+}
+
+.nav-search-full .body {
+    border-bottom: 1px solid silver;
+    padding: 3px 0;
+    margin-bottom: 4px;
+}
+
+.nav-search-full .body .search-row {
+    padding: 3px 0;
+}
+
+.nav-search-full .body .search-row:before, .nav-search-full .body .search-row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.nav-search-full .body .search-row span {
+    display: inline-block;
+    padding: 0 3px 0 0;
+    width: 105px;
+    text-align: right;
+}
+
+.nav-search-full .body .search-row span, .nav-search-full .body .search-row input {
+    float: left;
+}
+
+.nav-search-full .fa-times {
+    color: red;
+    float: right;
+    cursor: pointer;
+}
+
+.nav-search-full .btn {
+    float: right;
+    margin: 0 0 0 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.nav.navbar-nav a {
+    cursor: pointer;
+}
+
+.webix_icon_button .webix_icon.webix_icon_white {
+    color: white !important;
+}
+
+.webix_icon_count {
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    height: 22px;
+    min-width: 22px;
+    line-height: 17px;
+    box-sizing: border-box;
+    -moz-box-sizing: boder-box;
+    -webkit-box-sizing: boder-box;
+    padding: 0 4px;
+    text-align: center;
+    line-height: 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.buttonIcon .webix_icon {
+    font-size: 18px;
+    color: #2B7CAC;
+}
+
+.buttonIconRed .webix_icon {
+    font-size: 18px;
+    color: red !important;
+}
+
+.navbar {
+    minWidth: 940;
+}
+
+@media (max-width: 1200px) {
+    .nav-search-wrap {
+        display: none;
+    }
+}
+
+.panelHeading .webix_scroll_cont, .panelHeading .webix_icon  {
+    background: transparent!important;
+}
+
+.colorWhite {
+    color: white!important;
+}
+
+
+.webix_message_area {
+    display:none;
+}
+
+.webix_info.webix_error {
+    display:none;
+}

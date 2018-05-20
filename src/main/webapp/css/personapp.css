@@ -1,0 +1,480 @@
+.middlecontainer {
+    padding: 20px
+}
+
+#personSearchContainer {
+    padding-top: 50px
+}
+
+#personSearchForm input {
+    text-transform: uppercase
+}
+
+#crudContainer {
+    display: none
+}
+
+#messageBox {
+    text-align: center;
+    padding-top: 50px
+}
+
+#messageBox span {
+    color: #575757;
+    font-size: 1.1em
+}
+
+.propfield {
+    background-color: #45688e;
+    font-family: Calibri, serif;
+    color: white;
+    font-size: 1.1em;
+    text-align: right
+}
+
+.appfield {
+    font-size: 1.2em;
+    font-family: Calibri, serif
+}
+
+.searchTitle {
+    color: #5497c4;
+    font-family: "Open Sans", arial, serif;
+    font-size: 30px;
+    margin-left: 5px
+}
+
+.table {
+    margin-bottom: 5px
+}
+
+#personsTable {
+    margin-top: 30px
+}
+
+#personTableCont {
+    padding-top: 40px
+}
+
+#personTable tr {
+    cursor: pointer
+}
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px
+}
+
+.input-group-btn .btn-group {
+    display: flex !important
+}
+
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px
+}
+
+.btn-group .form-horizontal .btn[type="submit"] {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto
+    }
+
+    .dropdown.dropdown-lg {
+        position: static !important
+    }
+
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px
+    }
+}
+
+.waitblock {
+    display: none
+}
+
+.appTable .webix_cell, .personTable .webix_cell {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px
+}
+
+.personTable .webix_dd_drag_column, .webix_ss_header, .webix_ss_header TD, .webix_ss_vscroll_header {
+    background: #45688e;
+    color: white;
+    font-size: 13px
+}
+
+.appTable .webix_ss_header td {
+    border-bottom: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb
+}
+
+.appTable .webix_dtable .webix_ss_vscroll_header {
+    border-bottom: 1px solid #ebebeb
+}
+
+.appTable .webix_ss_vscroll_header {
+    border-left: 1px solid #ebebeb
+}
+
+.appTable .webix_ss_body {
+    cursor: pointer
+}
+
+.appsTableHover {
+    background-color: #ebebeb;
+    cursor: pointer
+}
+
+.webix_ss_footer TD, .webix_ss_vscroll_footer {
+    color: #686868;
+    font-size: 13px;
+    font-weight: bold
+}
+
+.webix_section {
+    font-family: Tahoma, serif;
+    font-size: 14px;
+    text-transform: none;
+    color: #575757
+}
+
+.mainTitleText {
+    padding: 5px;
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-size: 1.2em;
+    color: #566566
+}
+
+.mainAccordion .webix_accordionitem_header {
+    background-color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 1.2em;
+    color: #566566
+}
+
+.mainAccordion .webix_accordionitem .webix_accordionitem_header .webix_accordionitem_button {
+    color: #566566
+}
+
+.mainAccordion .webix_view .webix_accordionitem .vertical {
+    background-color: white
+}
+
+.webix_view.webix_layout_accordion {
+    background-color: white
+}
+
+.webix_accordionitem_header {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-color: #ddd;
+    color: #333
+}
+
+.webix_accordionitem .webix_accordionitem_header .webix_accordionitem_button {
+    color: #333
+}
+
+.webix_accordionitem.horizontal.collapsed .webix_accordionitem_header, .webix_accordionitem.collapsed .webix_accordionitem_header {
+    background-color: #f5f5f5;
+    color: #333
+}
+
+.webix_accordionitem.horizontal.collapsed .webix_accordionitem_header .webix_accordionitem_button, .webix_accordionitem.collapsed .webix_accordionitem_header .webix_accordionitem_button {
+    color: #333
+}
+
+.webix_layout_accordion, .webix_layout_clean, .webix_layout_line, .webix_multiview {
+    background: white
+}
+
+.webix_view.webix_list.bgColorNavy .webix_scroll_cont {
+    background-color: #45688e;
+    color: white
+}
+
+.bgColorNavy .webix_list_item {
+    text-align: right;
+    cursor: text;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    border: 0;
+}
+
+.bgColorNavy .webix_list_item:focus {
+    outline: none;
+}
+
+.mainAccordion .webix_view a.webix_list_item, .mainAccordion .webix_view div, .mainAccordion .webix_view span {
+    border: 0 !important;
+}
+
+.listPerson .webix_list_item {
+    cursor: text;
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    border: 0 !important;
+}
+
+.listPerson .webix_list_item:focus {
+    outline: none;
+}
+
+.webix_view.webix_list.listPerson {
+    border: 0 !important;
+}
+
+.webix_view.personsTable.webix_layout_line {
+    background: transparent
+}
+
+.webix_layout_toolbar.webix_toolbar {
+    background-color: white
+}
+
+.webix_layout_toolbar.webix_toolbar .webix_el_label {
+    color: #317eac !important
+}
+
+.webix_layout_toolbar.webix_toolbar .buttonIcon .webix_icon_button .webix_icon {
+    padding: 5px;
+    font-size: 18px;
+    color: #2B7CAC
+}
+
+.webix_layout_toolbar.webix_toolbar .buttonIconRed .webix_icon_button .webix_icon {
+    padding: 5px;
+    font-size: 18px;
+    color: red
+}
+
+.webix_icon.open_row, .webix_icon.drop_row {
+    text-align: center;
+    font-size: 18px;
+    display: inline;
+    border-radius: 5px;
+    transition: .1s
+}
+
+.webix_icon.open_row {
+    padding: 7px 7px
+}
+
+.webix_icon.drop_row {
+    padding: 7px 10px
+}
+
+.open_row:hover, .drop_row:hover {
+    background: rgba(8, 8, 20, 0.07)
+}
+
+.webix_view.noBorder {
+    border: none;
+    height: 38px !important
+}
+
+.noBorder .webix_template {
+    padding: 0 !important;
+    border: none
+}
+
+.personAppAccordion .webix_view.webix_layout_line {
+    background: transparent
+}
+
+.form__row__label {
+    display: table-cell;
+    width: 120px;
+    padding-top: 6px;
+    vertical-align: top;
+    text-align: right;
+    font-size: 12px;
+    line-height: 14px;
+    cursor: default
+}
+
+.form__row__widget {
+    display: table-cell;
+    vertical-align: top
+}
+
+.form__field {
+    width: 280px;
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc
+}
+
+.popup__controls {
+    position: relative;
+    padding: 16px 24px 18px;
+    background: #fff;
+    border-top: 1px solid #f2f2f2
+}
+
+.js-input {
+    float: right
+}
+
+.personAppAccordion .webix_view {
+    transition: .3s
+}
+
+.personAppAccordion .webix_accordionitem_header {
+    z-index: 0
+}
+
+.no-border-radius input {
+    border-radius: 0
+}
+
+.search-form-input label {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    padding-right: 24px
+}
+
+.no-border {
+    border: transparent
+}
+
+.webix_input_icon.fa-calendar {
+    background: transparent !important;
+    color: grey !important
+}
+
+.silver-line {
+    background-color: #ebebeb
+}
+
+.webix_segment_0, .webix_segment_1, .webix_segment_N {
+    background: #45688e;
+    color: #fff;
+    border: 1px solid #45688e;
+    border-bottom: 1px solid #45688e
+}
+
+.webix_inp_counter_next:hover, .webix_inp_counter_prev:hover, .webix_segment_0:hover, .webix_segment_1:hover, .webix_segment_N:hover, .webixbutton:hover, .webixtype_base:hover {
+    background-color: #686868
+}
+
+.webix_message_area {
+    display: none;
+}
+
+.webix_info.webix_error {
+    display: none;
+}
+
+.btn-default-black {
+    color: white;
+    background-color: black;
+    border-color: #ccc;
+    opacity: .8;
+}
+
+.btn-default-violet {
+    color: white;
+    background-color: #D68;
+    border-color: #ccc;
+    opacity: .8;
+}
+
+.btn-default-58e {
+    opacity: .8;
+    color: white;
+    background-color: #58E;
+    border-color: #ccc;
+}
+
+.dTable .webix_column > div.webix_row_select {
+    color: #fff !important;
+    background: red !important;
+}
+
+.btn-default-black:hover, .btn-default-violet:hover, .btn-default-58e:hover {
+    color: white !important;
+    opacity: 1;
+}
+
+.accordionStyle div.webix_item_tab {
+    font-size: 13px !important;
+    width: 100px !important;
+    height: 37px !important;
+}
+
+.modalS {
+    margin-top: 20px !important;
+}
+
+.wtShadow {
+    border: 0;
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2)
+}
+
+.xBorder {
+    border: 0;
+}
+
+.wtShadow .webix_list_item:focus {
+    outline: none;
+}
+
+.personTable .webix_dd_drag_column, .webix_ss_header, .webix_ss_header TD, .webix_ss_vscroll_header,
+.personTable .webix_column > div, .webix_table_cell {
+    border: 0 !important;
+}
+
+.bg-hsl {
+    background: hsl(0, 0%, 97%);
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none!important;;
+    border-color: #007bff!important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, .5)
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+    color: #007bff;
+    background-color: transparent
+}
+
+.btn-outline-primary.active, .btn-outline-primary:active, .show > .btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
