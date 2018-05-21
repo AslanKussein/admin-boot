@@ -1,5 +1,5 @@
-<%@ page import="kz.crtr.emaket.entity.gson.GsonUsers" %>
-<%@ page import="kz.crtr.emaket.utils.Constant" %>
+<%@ page import="kz.crtr.app.entity.gson.GsonUsers" %>
+<%@ page import="kz.crtr.app.utils.Constant" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
